@@ -2,7 +2,7 @@
 This project is a part of the AAI 501 course in the Applied Artificial Intelligence Program at the University of San Diego (USD).
 
 **Project Status: Completed**
-
+**Installation**
 git clone https://github.com/nbhardwaj322/Group_7_Spam_classification_project
 cd spam-classification
 python -m venv venv
@@ -59,6 +59,7 @@ Ham (legitimate)
 Spam (unwanted/malicious)
 Imbalance: 87% ham, 13% spam
 Ham messages are generally shorter (<100 characters), while spam messages are often longer and contain promotional or fraudulent content.
+
 **Approach**
 Data Preprocessing: Lowercasing, punctuation removal, tokenization, stopword removal, stemming/lemmatization, label encoding.
 
