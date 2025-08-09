@@ -1,7 +1,7 @@
 **Spam Classification Using Machine Learning**
 This project is a part of the AAI 501 course in the Applied Artificial Intelligence Program at the University of San Diego (USD).
 
-Project Status: Completed
+**Project Status: Completed**
 
 git clone https://github.com/nbhardwaj322/Group_7_Spam_classification_project
 cd spam-classification
@@ -10,53 +10,41 @@ source venv/bin/activate    # macOS/Linux
 venv\Scripts\activate       # Windows
 pip install -r requirements.txt
 
-Project Intro / Objective
+**Project Intro / Objective**
 The purpose of this project is to develop a machine learning-based SMS spam detection system capable of accurately classifying incoming messages as spam or ham (non-spam).
 The system combines Natural Language Processing (NLP) techniques with multiple machine learning models, ultimately identifying XGBoost as the top-performing model.
 
 The project aims to:
 
-Minimize false negatives to protect users from spam threats.
+1) Minimize false negatives to protect users from spam threats.
 
-Handle noisy and imbalanced real-world text data.
+2) Handle noisy and imbalanced real-world text data.
 
-Evaluate and compare multiple algorithms for optimal performance.
+3) Evaluate and compare multiple algorithms for optimal performance.
 
 Partner(s) / Contributor(s)
 Team Members:
 
-Nitish Bhardwaj
+1) Nitish Bhardwaj
+2) Vijay Agarwal
+3) Bashir Ali
 
-Vijay Agarwal
-
-Bashir Ali
-
-Methods Used
+**Methods Used**
 Natural Language Processing (NLP)
-
 Machine Learning
-
 Model Evaluation Metrics (Accuracy, Precision, Recall, F1-score)
-
 Dimensionality Reduction (SVD, PCA)
-
 Handling Imbalanced Data (SMOTE)
-
 Data Visualization
 
 Technologies
 Python 3.x
-
 pandas, numpy, scikit-learn
-
 XGBoost
-
 imbalanced-learn
-
 NLTK
-
-matplotlib, seaborn
-
+matplotlib, 
+seaborn
 joblib
 
 Project Description
