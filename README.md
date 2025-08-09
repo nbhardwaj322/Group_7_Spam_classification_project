@@ -53,35 +53,28 @@ Name: SMS Spam Collection Dataset (UCI Machine Learning Repository)
 
 Size: 5,574 labeled SMS messages
 
-Classes:
+**Classes:**
 
 Ham (legitimate)
-
 Spam (unwanted/malicious)
-
 Imbalance: 87% ham, 13% spam
-
 Ham messages are generally shorter (<100 characters), while spam messages are often longer and contain promotional or fraudulent content.
-
-Approach
+**Approach**
 Data Preprocessing: Lowercasing, punctuation removal, tokenization, stopword removal, stemming/lemmatization, label encoding.
 
-Feature Engineering:
-
+**Feature Engineering:**
 TF-IDF vectorization
-
 Dimensionality reduction with TruncatedSVD and PCA
-
 KMeans clustering features
-
 Message length metadata
 
+**Modelling**
 Class Imbalance Handling: SMOTE oversampling for minority spam class.
-
 Model Building: Logistic Regression, Linear SVC, RandomForest, KNN, GradientBoosting, XGBoost.
 
-Results:
+**Results:**
 o	XGBoost achieves the highest F1 score (~0.93), indicating a strong balance between precision and recall, making it the most reliable choice overall.
 
-Evaluation: Accuracy, Precision, Recall, F1-score, ROC curve, Feature importance.
+**Evaluation:**
+Accuracy, Precision, Recall, F1-score, ROC curve, Feature importance.
 
